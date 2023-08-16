@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+.main-div input:valid{
+  border: 1px solid green;
+  
+}
+.main-div input:invalid{
+  border: 1px solid red;
+}
+.main-div input:required{
+
+  border-width: 5px;
+
+}
+.main-div input:optional{
+
+  border-width: 10px;
+}
+input:out-of-range{
+  background: pink;
+}
+input:in-range{
+  background: lightgreen;
+}
